@@ -14,6 +14,7 @@ const App = () => (
         </span>
         - we will be work very hard to build useful frontend tools.
       </p>
+      <p>Trust me this gonna be awesome thing :-)</p>
     </header>
   </div>
 );
