@@ -10,5 +10,13 @@
                 "react/jsx-first-prop-new-line": "multiline",
                 "react/jsx-max-props-per-line'": "multiline",
                 "linebreak-style": 0
+        },
+        "settings": {
+                "import/resolver": {
+                        "node": {
+                                "paths": ["./src"],
+                                "extentions": [".js", ".jsx", ".ts", ".tsx"]
+                        }
+                }
         }
 }
