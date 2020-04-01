@@ -1,6 +1,5 @@
 ## FRONTEND TOOLBOX - many tools for developers in one place
 
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
