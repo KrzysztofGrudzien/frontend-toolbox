@@ -10,6 +10,8 @@
         ],
         //"react/jsx-first-prop-new-line": "multiline",
         //"react/jsx-max-props-per-line": "multiline",
+
+        "import/prefer-default-export": 0,
         "linebreak-style": 0
     },
     "globals": {
