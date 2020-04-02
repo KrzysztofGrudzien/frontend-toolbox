@@ -2,23 +2,24 @@ import styled, { css } from 'styled-components';
 import envelopeIcon from '../../assets/images/envelope.svg';
 
 const Button = styled.button`
-    background-color: #d65a31;
+    background-color: ${({ theme }) => theme.colors.additional};
     border: none;
     border-radius: 5px;
-    color: #eeeeee;
+    color: ${({ theme }) => theme.fontColors.grayPrimary};
     height: 41px;
+    font-size: ${({ theme }) => theme.fontSize.s};
     padding: 10px 20px;
 
     ${({ gray2 }) =>
         gray2 &&
         css`
-            background-color: #5d6167;
+            background-color: ${({ theme }) => theme.colors.tertiary};
         `}
 
     ${({ gray4 }) =>
         gray4 &&
         css`
-            background-color: #222831;
+            background-color: ${({ theme }) => theme.colors.primary};
         `}
     ${({ sendIcon }) =>
         sendIcon &&
