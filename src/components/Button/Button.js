@@ -1,5 +1,5 @@
 import styled, { css } from 'styled-components';
-import envelopeIcon from '../../assets/images/envelope.svg';
+import envelopeIcon from '../../assets/images/icons/envelope.svg';
 
 const Button = styled.button`
     background-color: ${({ theme }) => theme.colors.additional};
