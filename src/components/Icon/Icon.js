@@ -5,6 +5,9 @@ import copyIcon from '../../assets/images/icons/copy.svg';
 import homeIcon from '../../assets/images/icons/home.svg';
 import imageIcon from '../../assets/images/icons/image.svg';
 import paperIcon from '../../assets/images/icons/paper.svg';
+import userIcon from '../../assets/images/icons/user.svg';
+import logoIcon from '../../assets/images/icons/logo.svg';
+import logoTitleIcon from '../../assets/images/icons/logoTitle.svg';
 
 const Icon = styled.span`
     background: ${({ theme }) => theme.colors.additional};
@@ -54,6 +57,38 @@ const Icon = styled.span`
             background: ${({ theme }) => theme.colors.additional} url(${homeIcon});
             background-position: 50% 50%;
             background-repeat: no-repeat;
+        `}
+    ${({ user }) =>
+        user &&
+        css`
+            background: url(${userIcon});
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            display: inline-block;
+            height: 50px;
+            width: 50px;
+        `}
+    ${({ logo }) =>
+        logo &&
+        css`
+            background: url(${logoIcon});
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            border-radius: none;
+            display: inline-block;
+            height: 55px;
+            width: 55px;
+        `}
+    ${({ logoTitle }) =>
+        logoTitle &&
+        css`
+            background: url(${logoTitleIcon});
+            background-position: 50% 50%;
+            background-repeat: no-repeat;
+            border-radius: none;
+            display: inline-block;
+            min-width: 205px;
+            height: 55px;
         `}
 `;
 

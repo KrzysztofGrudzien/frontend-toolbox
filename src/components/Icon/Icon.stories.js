@@ -9,3 +9,6 @@ export const IconBoxPaper = () => <Icon paper />;
 export const IconBoxCopy = () => <Icon copy />;
 export const IconBoxCalculator = () => <Icon calculator />;
 export const IconBoxHome = () => <Icon home />;
+export const IconUser = () => <Icon user />;
+export const IconLogo = () => <Icon logo />;
+export const IconLogoTitle = () => <Icon logoTitle />;
