@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import envelopeIcon from '../../assets/images/icons/envelope.svg';
+import copyTextIcon from '../../assets/images/icons/copy.svg';
 
 const Button = styled.button`
     background-color: ${({ theme }) => theme.colors.additional};
@@ -29,6 +30,13 @@ const Button = styled.button`
             background-repeat: no-repeat;
             padding: 10px 35px;
             border-left: solid 10px #d65a31;
+        `}
+    ${({ copyText }) =>
+        copyText &&
+        css`
+            background-image: url(${copyTextIcon});
+            background-position: center left;
+            background-repeat: no-repeat;
         `}
 `;
 
