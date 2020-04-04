@@ -1,5 +1,6 @@
 import styled, { css } from 'styled-components';
 import searchIcon from '../../assets/images/icons/searchIcon.svg';
+import dropDownIcon from '../../assets/images/icons/dropDownIcon.svg';
 
 const Input = styled.input`
     color: ${({ theme }) => theme.fontColors.grayPrimary};
@@ -25,6 +26,34 @@ const Input = styled.input`
             background-image: url(${searchIcon});
             background-position: right 16px bottom 50%;
             background-repeat: no-repeat;
+        `};
+
+    ${({ small }) =>
+        small &&
+        css`
+            max-width: 60px;
+            text-align: center;
+        `}
+
+    ${({ medium }) =>
+        medium &&
+        css`
+            max-width: 168px;
+        `}
+
+    ${({ large }) =>
+        large &&
+        css`
+            max-width: 274px;
+        `}
+
+    ${({ select }) =>
+        select &&
+        css`
+            max-width: 168px;
+            background-image: url(${dropDownIcon});
+            background-repeat: no-repeat;
+            background-position: right 8px bottom 50%;
         `}
 `;
 
