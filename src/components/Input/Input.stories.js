@@ -3,4 +3,4 @@ import Input from './Input';
 
 export default { title: 'Input' };
 
-export const clearInput = () => <Input placeholder="Click me" />;
+export const Normal = () => <Input placeholder="Your name" />;
