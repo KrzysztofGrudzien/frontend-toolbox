@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 const HeaderSecondary = styled.h2`
-    font-size: 2rem;
+    color: ${({ theme }) => theme.fontColors.grayPrimary};
+    font-size: ${({ theme }) => theme.fontSize.l};
+    margin: 0;
 `;
 export default HeaderSecondary;

@@ -1,30 +1,30 @@
 import styled, { css } from 'styled-components';
 
 const Paragraph = styled.p`
-    font-weight: 600;
+    font-weight: ${({ theme }) => theme.weigth.bold};
 
     ${({ large }) =>
         large &&
         css`
-            font-size: 2rem;
+            font-size: ${({ theme }) => theme.fontSize.l};
         `}
 
     ${({ secondary }) =>
         secondary &&
         css`
-            font-size: 1.4rem;
+            font-size: ${({ theme }) => theme.fontSize.s};
         `}
     ${({ caption }) =>
         caption &&
         css`
-            font-size: 1rem;
-            font-weight: 500;
+            font-size: ${({ theme }) => theme.fontSize.xxs};
+            font-weight: ${({ theme }) => theme.weigth.medium};
         `}
     ${({ tertiary }) =>
         tertiary &&
         css`
-            font-size: 1.2rem;
-            font-weight: 500;
+            font-size: ${({ theme }) => theme.fontSize.xs};
+            font-weight: ${({ theme }) => theme.weigth.bold};
         `}
 `;
 
