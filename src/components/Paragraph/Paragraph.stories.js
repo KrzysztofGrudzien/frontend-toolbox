@@ -1,7 +1,7 @@
 import React from 'react';
 import Paragraph from './Paragraph';
 
-export default { title: 'Paragraphs' };
+export default { title: 'Atoms/Paragraphs' };
 
 export const ParagraphBasic = () => <Paragraph>Lorem ipsum dolor ...</Paragraph>;
 export const ParagraphBasicSecondary = () => <Paragraph secondary>Lorem ipsum dolor ...</Paragraph>;

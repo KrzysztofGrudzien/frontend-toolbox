@@ -1,7 +1,7 @@
 import React from 'react';
 import Button from './Button';
 
-export default { title: 'Button' };
+export default { title: 'Atoms/Button' };
 
 export const ButtonOne = () => <Button>PX to REM</Button>;
 export const ButtonTwo = () => <Button gray2>REM to PX</Button>;

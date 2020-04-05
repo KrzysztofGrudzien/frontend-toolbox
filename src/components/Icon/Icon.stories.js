@@ -1,7 +1,7 @@
 import React from 'react';
 import Icon from './Icon';
 
-export default { title: 'IconsBoxInActive' };
+export default { title: 'Atoms/IconsBoxInActive' };
 
 export const IconBoxEnvelope = () => <Icon envelope />;
 export const IconBoxImage = () => <Icon image />;
