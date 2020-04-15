@@ -56,6 +56,7 @@ const Icon = styled.span`
             background: url(${userIcon});
             background-position: 50% 50%;
             background-repeat: no-repeat;
+            justify-self: end;
             display: inline-block;
             height: 50px;
             width: 50px;

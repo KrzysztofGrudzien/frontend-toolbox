@@ -7,7 +7,6 @@ const Input = styled.input`
     line-height: 21px;
     padding: 10px 18px;
     max-width: 257px;
-    width: 100%;
     font-size: ${({ theme }) => theme.fontSize.s};
     font-weight: ${({ theme }) => theme.weigth.medium};
     background-color: ${({ theme }) => theme.colors.secondary};
@@ -26,6 +25,7 @@ const Input = styled.input`
             background-image: url(${searchIcon});
             background-position: right 16px bottom 50%;
             background-repeat: no-repeat;
+            justify-self: end;
         `};
 
     ${({ small }) =>

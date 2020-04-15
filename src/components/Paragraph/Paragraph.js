@@ -2,6 +2,7 @@ import styled, { css } from 'styled-components';
 
 const Paragraph = styled.p`
     font-weight: ${({ theme }) => theme.weigth.bold};
+    color: ${({ theme }) => theme.fontColors.grayPrimary};
 
     ${({ large }) =>
         large &&
@@ -13,6 +14,7 @@ const Paragraph = styled.p`
         secondary &&
         css`
             font-size: ${({ theme }) => theme.fontSize.s};
+            font-weight: ${({ theme }) => theme.weigth.regular};
         `}
     ${({ caption }) =>
         caption &&
