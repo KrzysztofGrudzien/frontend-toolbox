@@ -4,6 +4,7 @@ export const theme = {
         secondary: '#393E46',
         tertiary: '#5D6167',
         additional: '#D65A31',
+        quaternary: '#EEEEEE',
     },
     fontColors: {
         grayPrimary: '#EEEEEE',
