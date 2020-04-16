@@ -1,12 +1,12 @@
 import styled, { css } from 'styled-components';
-import envelopeIcon from '../../assets/images/icons/envelope.svg';
-import calculatorIcon from '../../assets/images/icons/calculator.svg';
-import homeIcon from '../../assets/images/icons/home.svg';
-import imageIcon from '../../assets/images/icons/image.svg';
-import paperIcon from '../../assets/images/icons/paper.svg';
-import userIcon from '../../assets/images/icons/user.svg';
-import logoIcon from '../../assets/images/icons/logo.svg';
-import logoTitleIcon from '../../assets/images/icons/logoTitle.svg';
+import envelopeIcon from '../../../assets/images/icons/envelope.svg';
+import calculatorIcon from '../../../assets/images/icons/calculator.svg';
+import homeIcon from '../../../assets/images/icons/home.svg';
+import imageIcon from '../../../assets/images/icons/image.svg';
+import paperIcon from '../../../assets/images/icons/paper.svg';
+import userIcon from '../../../assets/images/icons/user.svg';
+import logoIcon from '../../../assets/images/icons/logo.svg';
+import logoTitleIcon from '../../../assets/images/icons/logoTitle.svg';
 
 const Icon = styled.span`
     background: null;

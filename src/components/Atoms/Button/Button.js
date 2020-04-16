@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
-import envelopeIcon from '../../assets/images/icons/envelope.svg';
-import copyTextIcon from '../../assets/images/icons/copy.svg';
+import envelopeIcon from '../../../assets/images/icons/envelope.svg';
+import copyTextIcon from '../../../assets/images/icons/copy.svg';
 
 const Button = styled.button`
     background-color: ${({ theme }) => theme.colors.additional};

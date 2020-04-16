@@ -1,6 +1,6 @@
 import styled, { css } from 'styled-components';
-import searchIcon from '../../assets/images/icons/searchIcon.svg';
-import dropDownIcon from '../../assets/images/icons/dropDownIcon.svg';
+import searchIcon from '../../../assets/images/icons/searchIcon.svg';
+import dropDownIcon from '../../../assets/images/icons/dropDownIcon.svg';
 
 const Input = styled.input`
     color: ${({ theme }) => theme.fontColors.grayPrimary};
