@@ -7,6 +7,7 @@ const Header = styled.header`
     align-items: center;
     padding: 30px 57px;
     width: calc(100% - 255px);
+    margin-bottom: 3.2rem;
 `;
 
 export default Header;

@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components';
 
 const Paragraph = styled.p`
-    font-weight: ${({ theme }) => theme.weigth.bold};
+    font-weight: ${({ theme }) => theme.weigth.regular};
     color: ${({ theme }) => theme.fontColors.grayPrimary};
     margin: 0;
 
