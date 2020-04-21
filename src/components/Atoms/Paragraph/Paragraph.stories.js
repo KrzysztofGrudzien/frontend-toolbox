@@ -8,3 +8,8 @@ export const ParagraphBasicSecondary = () => <Paragraph secondary>Lorem ipsum do
 export const ParagraphBasicTertiary = () => <Paragraph tertiary>Lorem ipsum dolor ...</Paragraph>;
 export const ParagraphBasicLarge = () => <Paragraph large>Lorem ipsum dolor ...</Paragraph>;
 export const ParagraphCaption = () => <Paragraph caption>Lorem ipsum dolor ...</Paragraph>;
+export const ParagraphCaptionCaps = () => (
+    <Paragraph caption caps>
+        Lorem ipsum dolor ...
+    </Paragraph>
+);

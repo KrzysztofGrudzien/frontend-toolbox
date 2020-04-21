@@ -28,6 +28,11 @@ const Paragraph = styled.p`
             font-size: ${({ theme }) => theme.fontSize.xs};
             font-weight: ${({ theme }) => theme.weigth.bold};
         `}
+    ${({ caps }) =>
+        caps &&
+        css`
+            text-transform: uppercase;
+        `}
 `;
 
 export default Paragraph;
