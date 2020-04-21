@@ -3,6 +3,7 @@ import styled, { css } from 'styled-components';
 const Paragraph = styled.p`
     font-weight: ${({ theme }) => theme.weigth.bold};
     color: ${({ theme }) => theme.fontColors.grayPrimary};
+    margin: 0;
 
     ${({ large }) =>
         large &&
